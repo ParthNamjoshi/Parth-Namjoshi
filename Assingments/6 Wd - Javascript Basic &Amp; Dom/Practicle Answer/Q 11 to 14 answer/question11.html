@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q 11 PARTH NAMJOSHI</title>
+</head>
+<body>
+    <!-- Q.11	Find circumference of Rectangle formula : C = 4 * a ? -->
+    
+    <h1 id="circumference"></h1>
+</body>
+<script>
+    // Function to calculate "circumference" of rectangle (4 times the length of one side)
+    function calculateCircumference(side) {
+        return 4 * side;
+    }
+
+    const sideLength = 5; // Length of one side of the rectangle
+
+    const circumference = calculateCircumference(sideLength);
+
+    document.getElementById("circumference").innerHTML = "Circumference of the rectangle (considering one side): " + circumference;
+</script>
+</html>

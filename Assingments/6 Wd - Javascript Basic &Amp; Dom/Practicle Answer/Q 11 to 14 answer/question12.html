@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q 12 PARTH NAMJOSHI</title>
+</head>
+<body>
+    <!-- Q.12 WAP to convert years into days and days into years? -->
+    
+    <h1 id="output"></h1> <!-- Add an h1 tag with ID "output" -->
+</body>
+<script>
+    function yearsToDays(years) {
+        const days = years * 365;
+        return days;
+    }
+
+    function daysToYears(days) {
+        const years = days / 365;
+        return years;
+    }
+
+    // Test the functions
+    const inputYears = 3;
+    const resultDays = yearsToDays(inputYears);
+
+    const inputDays = 1095;
+    const resultYears = daysToYears(inputDays);
+
+    // Output the results in the h1 tag
+    document.getElementById("output").innerHTML = `${inputYears} years is equal to ${resultDays} days. <br>${inputDays} days is equal to ${resultYears} years.`;
+</script>
+</html>
